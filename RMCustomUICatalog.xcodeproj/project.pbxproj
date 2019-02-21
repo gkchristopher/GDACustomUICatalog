@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833E5E89221ED19600327A73 /* ExpandingSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833E5E88221ED19600327A73 /* ExpandingSearchBar.swift */; };
 		8342591B1B7FA35D00D25F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342591A1B7FA35D00D25F4D /* AppDelegate.swift */; };
 		8342591D1B7FA35D00D25F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342591C1B7FA35D00D25F4D /* ViewController.swift */; };
 		834259201B7FA35D00D25F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8342591E1B7FA35D00D25F4D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		833E5E88221ED19600327A73 /* ExpandingSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingSearchBar.swift; sourceTree = "<group>"; };
 		834259151B7FA35D00D25F4D /* RMCustomUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMCustomUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834259191B7FA35D00D25F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8342591A1B7FA35D00D25F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				8342591C1B7FA35D00D25F4D /* ViewController.swift */,
 				8342593A1B7FAA3F00D25F4D /* RMSymbolButton.swift */,
 				83552B101B7FC3FD002EE265 /* RMButton.swift */,
+				833E5E88221ED19600327A73 /* ExpandingSearchBar.swift */,
 				8342591E1B7FA35D00D25F4D /* Main.storyboard */,
 				834259231B7FA35D00D25F4D /* LaunchScreen.xib */,
 				834259181B7FA35D00D25F4D /* Supporting Files */,
@@ -150,6 +153,7 @@
 			files = (
 				8342591D1B7FA35D00D25F4D /* ViewController.swift in Sources */,
 				8342593B1B7FAA3F00D25F4D /* RMSymbolButton.swift in Sources */,
+				833E5E89221ED19600327A73 /* ExpandingSearchBar.swift in Sources */,
 				83552B111B7FC3FD002EE265 /* RMButton.swift in Sources */,
 				8342591B1B7FA35D00D25F4D /* AppDelegate.swift in Sources */,
 			);

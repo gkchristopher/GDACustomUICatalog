@@ -70,19 +70,50 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="expandSearchBar:" destination="tzQ-pK-kdS" eventType="touchUpInside" id="8Sx-Os-WYB"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dI5-A7-WnT" customClass="ExpandingSearchBar" customModule="RMCustomUICatalog" customModuleProvider="target">
+                                <rect key="frame" x="162.5" y="246" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a20-k8-3Ih">
+                                <rect key="frame" x="175" y="304" width="25" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="K1Y-FF-221"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="a20-k8-3Ih" firstAttribute="top" secondItem="dI5-A7-WnT" secondAttribute="bottom" constant="8" id="5dE-UL-m9V"/>
                             <constraint firstItem="Aa4-ia-NBZ" firstAttribute="centerX" secondItem="dnH-sw-TYd" secondAttribute="centerX" id="9UX-6G-hoB"/>
                             <constraint firstItem="13d-77-aK9" firstAttribute="top" secondItem="Aa4-ia-NBZ" secondAttribute="bottom" constant="8" id="9VD-ih-PDb"/>
                             <constraint firstItem="13d-77-aK9" firstAttribute="trailing" secondItem="dnH-sw-TYd" secondAttribute="trailingMargin" id="B8L-q8-cGx"/>
+                            <constraint firstItem="a20-k8-3Ih" firstAttribute="centerX" secondItem="dnH-sw-TYd" secondAttribute="centerX" id="FFC-w1-7iU"/>
+                            <constraint firstItem="dI5-A7-WnT" firstAttribute="centerX" secondItem="dnH-sw-TYd" secondAttribute="centerX" id="FkP-Xg-qIx"/>
                             <constraint firstItem="YrS-uO-VJs" firstAttribute="top" secondItem="13d-77-aK9" secondAttribute="bottom" constant="8" id="Qe0-s2-os6"/>
                             <constraint firstItem="13d-77-aK9" firstAttribute="leading" secondItem="dnH-sw-TYd" secondAttribute="leadingMargin" id="X2c-5Z-g8t"/>
                             <constraint firstItem="Aa4-ia-NBZ" firstAttribute="top" secondItem="Bu3-dk-Iov" secondAttribute="bottom" id="Ya3-VR-ea2"/>
                             <constraint firstItem="YrS-uO-VJs" firstAttribute="centerX" secondItem="dnH-sw-TYd" secondAttribute="centerX" id="pGg-nC-xhU"/>
+                            <constraint firstItem="dI5-A7-WnT" firstAttribute="top" secondItem="YrS-uO-VJs" secondAttribute="bottom" constant="8" id="sMd-YD-a5e"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="dI5-A7-WnT" id="az0-gb-2uO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Go-vT-JDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

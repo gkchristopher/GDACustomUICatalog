@@ -5,6 +5,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var searchBar: ExpandingSearchBar!
+
     @IBAction func changeSymbol(_ sender: RMSymbolButton) {
         switch sender.isPlus {
         case true:
@@ -14,5 +16,9 @@ class ViewController: UIViewController {
             sender.isPlus = true
             sender.tintColor = UIColor.green
         }
+    }
+
+    @IBAction func expandSearchBar(_ sender: RMButton) {
+        searchBar.expandOrCollapse()
     }
 }
