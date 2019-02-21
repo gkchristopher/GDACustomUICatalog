@@ -10,16 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func changeSymbol(_ sender: GDASymbolButton) {
+        switch sender.isPlus {
+        case true:
+            sender.isPlus = false
+            sender.tintColor = UIColor.red
+        case false:
+            sender.isPlus = true
+            sender.tintColor = UIColor.green
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

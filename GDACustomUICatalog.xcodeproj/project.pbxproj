@@ -13,6 +13,8 @@
 		834259221B7FA35D00D25F4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834259211B7FA35D00D25F4D /* Images.xcassets */; };
 		834259251B7FA35D00D25F4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834259231B7FA35D00D25F4D /* LaunchScreen.xib */; };
 		834259311B7FA35D00D25F4D /* GDACustomUICatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834259301B7FA35D00D25F4D /* GDACustomUICatalogTests.swift */; };
+		8342593B1B7FAA3F00D25F4D /* GDASymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */; };
+		83552B111B7FC3FD002EE265 /* GDAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83552B101B7FC3FD002EE265 /* GDAButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8342592A1B7FA35D00D25F4D /* GDACustomUICatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDACustomUICatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8342592F1B7FA35D00D25F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834259301B7FA35D00D25F4D /* GDACustomUICatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDACustomUICatalogTests.swift; sourceTree = "<group>"; };
+		8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDASymbolButton.swift; sourceTree = "<group>"; };
+		83552B101B7FC3FD002EE265 /* GDAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				834259211B7FA35D00D25F4D /* Images.xcassets */,
 				834259231B7FA35D00D25F4D /* LaunchScreen.xib */,
 				834259181B7FA35D00D25F4D /* Supporting Files */,
+				8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */,
+				83552B101B7FC3FD002EE265 /* GDAButton.swift */,
 			);
 			path = GDACustomUICatalog;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8342591D1B7FA35D00D25F4D /* ViewController.swift in Sources */,
+				8342593B1B7FAA3F00D25F4D /* GDASymbolButton.swift in Sources */,
+				83552B111B7FC3FD002EE265 /* GDAButton.swift in Sources */,
 				8342591B1B7FA35D00D25F4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +299,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -330,9 +339,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,6 +421,7 @@
 				834259361B7FA35D00D25F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		834259371B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "GDACustomUICatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				834259391B7FA35D00D25F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
