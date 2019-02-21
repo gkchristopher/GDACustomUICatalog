@@ -1,10 +1,5 @@
-//
-//  ViewController.swift
-//  GDACustomUICatalog
-//
 //  Created by Christopher J Moore on 8/15/15.
-//  Copyright (c) 2015 Green Dragon Apps. All rights reserved.
-//
+//  Copyright (c) 2019 Roving Mobile, LLC. All rights reserved.
 
 import UIKit
 

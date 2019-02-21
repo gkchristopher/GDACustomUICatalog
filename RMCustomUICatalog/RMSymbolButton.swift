@@ -1,20 +1,39 @@
 //  Created by Christopher J Moore on 8/15/15.
 //  Copyright (c) 2019 Roving Mobile, LLC. All rights reserved.
-//
 
 import UIKit
 
 @IBDesignable
 class RMSymbolButton: UIButton {
 
-    @IBInspectable var isPlus: Bool = true
-    @IBInspectable var lineWidth: CGFloat = 3.0
-    @IBInspectable var lineColor: UIColor = .white
+    @IBInspectable var isPlus: Bool = true {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
+
+    @IBInspectable var lineWidth: CGFloat = 3.0 {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
+
+    @IBInspectable var lineColor: UIColor = .white {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
+
     @IBInspectable var percentage: CGFloat = 0.7 {
         didSet {
             if percentage > 1.0 { percentage = 1.0 }
             if percentage < 0.0 { percentage = 0.0 }
+            setNeedsDisplay()
         }
+    }
+
+    override func tintColorDidChange() {
+        setNeedsDisplay()
     }
     
     override func draw(_ rect: CGRect) {
