@@ -12,45 +12,24 @@
 		834259201B7FA35D00D25F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8342591E1B7FA35D00D25F4D /* Main.storyboard */; };
 		834259221B7FA35D00D25F4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834259211B7FA35D00D25F4D /* Images.xcassets */; };
 		834259251B7FA35D00D25F4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834259231B7FA35D00D25F4D /* LaunchScreen.xib */; };
-		834259311B7FA35D00D25F4D /* GDACustomUICatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834259301B7FA35D00D25F4D /* GDACustomUICatalogTests.swift */; };
-		8342593B1B7FAA3F00D25F4D /* GDASymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */; };
-		83552B111B7FC3FD002EE265 /* GDAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83552B101B7FC3FD002EE265 /* GDAButton.swift */; };
+		8342593B1B7FAA3F00D25F4D /* RMSymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342593A1B7FAA3F00D25F4D /* RMSymbolButton.swift */; };
+		83552B111B7FC3FD002EE265 /* RMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83552B101B7FC3FD002EE265 /* RMButton.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8342592B1B7FA35D00D25F4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8342590D1B7FA35D00D25F4D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 834259141B7FA35D00D25F4D;
-			remoteInfo = GDACustomUICatalog;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		834259151B7FA35D00D25F4D /* GDACustomUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDACustomUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834259151B7FA35D00D25F4D /* RMCustomUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMCustomUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834259191B7FA35D00D25F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8342591A1B7FA35D00D25F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8342591C1B7FA35D00D25F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8342591F1B7FA35D00D25F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		834259211B7FA35D00D25F4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		834259241B7FA35D00D25F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8342592A1B7FA35D00D25F4D /* GDACustomUICatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDACustomUICatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8342592F1B7FA35D00D25F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		834259301B7FA35D00D25F4D /* GDACustomUICatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDACustomUICatalogTests.swift; sourceTree = "<group>"; };
-		8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDASymbolButton.swift; sourceTree = "<group>"; };
-		83552B101B7FC3FD002EE265 /* GDAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAButton.swift; sourceTree = "<group>"; };
+		8342593A1B7FAA3F00D25F4D /* RMSymbolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMSymbolButton.swift; sourceTree = "<group>"; };
+		83552B101B7FC3FD002EE265 /* RMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		834259121B7FA35D00D25F4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		834259271B7FA35D00D25F4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +42,7 @@
 		8342590C1B7FA35D00D25F4D = {
 			isa = PBXGroup;
 			children = (
-				834259171B7FA35D00D25F4D /* GDACustomUICatalog */,
-				8342592D1B7FA35D00D25F4D /* GDACustomUICatalogTests */,
+				834259171B7FA35D00D25F4D /* RMCustomUICatalog */,
 				834259161B7FA35D00D25F4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,48 +50,30 @@
 		834259161B7FA35D00D25F4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				834259151B7FA35D00D25F4D /* GDACustomUICatalog.app */,
-				8342592A1B7FA35D00D25F4D /* GDACustomUICatalogTests.xctest */,
+				834259151B7FA35D00D25F4D /* RMCustomUICatalog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		834259171B7FA35D00D25F4D /* GDACustomUICatalog */ = {
+		834259171B7FA35D00D25F4D /* RMCustomUICatalog */ = {
 			isa = PBXGroup;
 			children = (
 				8342591A1B7FA35D00D25F4D /* AppDelegate.swift */,
 				8342591C1B7FA35D00D25F4D /* ViewController.swift */,
+				8342593A1B7FAA3F00D25F4D /* RMSymbolButton.swift */,
+				83552B101B7FC3FD002EE265 /* RMButton.swift */,
 				8342591E1B7FA35D00D25F4D /* Main.storyboard */,
-				834259211B7FA35D00D25F4D /* Images.xcassets */,
 				834259231B7FA35D00D25F4D /* LaunchScreen.xib */,
 				834259181B7FA35D00D25F4D /* Supporting Files */,
-				8342593A1B7FAA3F00D25F4D /* GDASymbolButton.swift */,
-				83552B101B7FC3FD002EE265 /* GDAButton.swift */,
 			);
-			path = GDACustomUICatalog;
+			path = RMCustomUICatalog;
 			sourceTree = "<group>";
 		};
 		834259181B7FA35D00D25F4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				834259211B7FA35D00D25F4D /* Images.xcassets */,
 				834259191B7FA35D00D25F4D /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8342592D1B7FA35D00D25F4D /* GDACustomUICatalogTests */ = {
-			isa = PBXGroup;
-			children = (
-				834259301B7FA35D00D25F4D /* GDACustomUICatalogTests.swift */,
-				8342592E1B7FA35D00D25F4D /* Supporting Files */,
-			);
-			path = GDACustomUICatalogTests;
-			sourceTree = "<group>";
-		};
-		8342592E1B7FA35D00D25F4D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8342592F1B7FA35D00D25F4D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		834259141B7FA35D00D25F4D /* GDACustomUICatalog */ = {
+		834259141B7FA35D00D25F4D /* RMCustomUICatalog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 834259341B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "GDACustomUICatalog" */;
+			buildConfigurationList = 834259341B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "RMCustomUICatalog" */;
 			buildPhases = (
 				834259111B7FA35D00D25F4D /* Sources */,
 				834259121B7FA35D00D25F4D /* Frameworks */,
@@ -133,28 +93,10 @@
 			);
 			dependencies = (
 			);
-			name = GDACustomUICatalog;
+			name = RMCustomUICatalog;
 			productName = GDACustomUICatalog;
-			productReference = 834259151B7FA35D00D25F4D /* GDACustomUICatalog.app */;
+			productReference = 834259151B7FA35D00D25F4D /* RMCustomUICatalog.app */;
 			productType = "com.apple.product-type.application";
-		};
-		834259291B7FA35D00D25F4D /* GDACustomUICatalogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 834259371B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "GDACustomUICatalogTests" */;
-			buildPhases = (
-				834259261B7FA35D00D25F4D /* Sources */,
-				834259271B7FA35D00D25F4D /* Frameworks */,
-				834259281B7FA35D00D25F4D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8342592C1B7FA35D00D25F4D /* PBXTargetDependency */,
-			);
-			name = GDACustomUICatalogTests;
-			productName = GDACustomUICatalogTests;
-			productReference = 8342592A1B7FA35D00D25F4D /* GDACustomUICatalogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,13 +110,9 @@
 					834259141B7FA35D00D25F4D = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					834259291B7FA35D00D25F4D = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 834259141B7FA35D00D25F4D;
-					};
 				};
 			};
-			buildConfigurationList = 834259101B7FA35D00D25F4D /* Build configuration list for PBXProject "GDACustomUICatalog" */;
+			buildConfigurationList = 834259101B7FA35D00D25F4D /* Build configuration list for PBXProject "RMCustomUICatalog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -187,8 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				834259141B7FA35D00D25F4D /* GDACustomUICatalog */,
-				834259291B7FA35D00D25F4D /* GDACustomUICatalogTests */,
+				834259141B7FA35D00D25F4D /* RMCustomUICatalog */,
 			);
 		};
 /* End PBXProject section */
@@ -204,13 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		834259281B7FA35D00D25F4D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,29 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8342591D1B7FA35D00D25F4D /* ViewController.swift in Sources */,
-				8342593B1B7FAA3F00D25F4D /* GDASymbolButton.swift in Sources */,
-				83552B111B7FC3FD002EE265 /* GDAButton.swift in Sources */,
+				8342593B1B7FAA3F00D25F4D /* RMSymbolButton.swift in Sources */,
+				83552B111B7FC3FD002EE265 /* RMButton.swift in Sources */,
 				8342591B1B7FA35D00D25F4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		834259261B7FA35D00D25F4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				834259311B7FA35D00D25F4D /* GDACustomUICatalogTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8342592C1B7FA35D00D25F4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 834259141B7FA35D00D25F4D /* GDACustomUICatalog */;
-			targetProxy = 8342592B1B7FA35D00D25F4D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8342591E1B7FA35D00D25F4D /* Main.storyboard */ = {
@@ -352,7 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GDACustomUICatalog/Info.plist;
+				INFOPLIST_FILE = RMCustomUICatalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,50 +276,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GDACustomUICatalog/Info.plist;
+				INFOPLIST_FILE = RMCustomUICatalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		834259381B7FA35D00D25F4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GDACustomUICatalogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDACustomUICatalog.app/GDACustomUICatalog";
-			};
-			name = Debug;
-		};
-		834259391B7FA35D00D25F4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GDACustomUICatalogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDACustomUICatalog.app/GDACustomUICatalog";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		834259101B7FA35D00D25F4D /* Build configuration list for PBXProject "GDACustomUICatalog" */ = {
+		834259101B7FA35D00D25F4D /* Build configuration list for PBXProject "RMCustomUICatalog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				834259321B7FA35D00D25F4D /* Debug */,
@@ -414,20 +294,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		834259341B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "GDACustomUICatalog" */ = {
+		834259341B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "RMCustomUICatalog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				834259351B7FA35D00D25F4D /* Debug */,
 				834259361B7FA35D00D25F4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		834259371B7FA35D00D25F4D /* Build configuration list for PBXNativeTarget "GDACustomUICatalogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				834259381B7FA35D00D25F4D /* Debug */,
-				834259391B7FA35D00D25F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

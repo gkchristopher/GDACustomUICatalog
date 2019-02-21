@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func changeSymbol(_ sender: GDASymbolButton) {
+    @IBAction func changeSymbol(_ sender: RMSymbolButton) {
         switch sender.isPlus {
         case true:
             sender.isPlus = false
