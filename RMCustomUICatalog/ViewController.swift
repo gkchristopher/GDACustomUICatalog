@@ -17,8 +17,4 @@ class ViewController: UIViewController {
             sender.tintColor = UIColor.green
         }
     }
-
-    @IBAction func expandSearchBar(_ sender: RMButton) {
-        searchBar.expandOrCollapse()
-    }
 }
